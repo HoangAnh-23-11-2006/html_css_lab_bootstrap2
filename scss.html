@@ -1,0 +1,17 @@
+$primary-color: #e74c3c;
+.button {
+  color: $primary-color;
+  background-color: lighten($primary-color, 20%);
+  border: 2px solid darken($primary-color, 10%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+    color: #fff;
+  }
+}
